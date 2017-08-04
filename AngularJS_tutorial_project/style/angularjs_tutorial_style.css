@@ -1,0 +1,75 @@
+	body{
+		background:#e8a2e8;
+	}
+	div.header1{
+		background:#cdef97!important;
+		
+		height:100px;
+			
+	}
+	div.page{
+		background:#dfff80;
+		border: 2px solid #a1a1a1;
+		border-radius: 25px;
+	}
+	div.bordered{
+		border: 1px solid green;
+		height:400px;
+		overflow-x:hidden;
+	}
+	.divnote{
+		background-color: #ffffcc;
+		border-left: 6px solid #ffeb3b;
+	}
+	
+	.divpanel{
+			margin-top: 16px;
+			margin-bottom: 16px;
+	}
+	.prewriter{
+		color: crimson;
+		background-color: #f1f1f1;
+		padding-left: 4px;
+		padding-right: 4px;
+		font-size: 110%;
+	}
+	td pre{
+		width:400px;
+		overflow:auto;				
+	}
+	.codespan{
+		color: crimson;
+		background-color: #f1f1f1;
+		padding-left: 4px;
+		padding-right: 4px;
+		font-size: 110%;
+	}
+	input.ng-invalid {
+		background-color: lightblue;
+	}
+	input[name=myNamevalidate].ng-invalid{
+		border-color:red;
+		background-color:white;
+	}
+	input[name=myNamevalidate].ng-valid{
+		border-color:green;
+	}
+	div.divnghide{
+		transition: all linear 0.5s;
+		background-color: lightblue;
+		height: 100px;
+		width: 100%;
+		position: relative;
+		top: 0;
+		left: 0;
+	}
+	div.ng-hide {
+		animation: 0.5s myChange;
+	}	
+	@keyframes myChange {
+		from {
+			height: 100px;
+		} to {
+			height: 0;
+		}
+	}

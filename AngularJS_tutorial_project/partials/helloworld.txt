@@ -1,0 +1,7 @@
+[
+   {
+      "Name" : "Krishna",
+      "RollNo" : 1,
+      "Percentage" : "80%"
+   }
+]
